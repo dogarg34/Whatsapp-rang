@@ -11,8 +11,10 @@ url = "http://51.77.216.195/crapi/lamix/viewstats?token=QlFSR0dXQkU0ZlJXVpdrU3Vp
 
 sent = set()  # duplicate avoid
 
+print("Bot Started Successfully")
 while True:
     try:
+        print("Checking API...")
         res = requests.get(url)
         data = res.json()
 
