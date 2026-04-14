@@ -7,7 +7,7 @@ CHAT_ID = "-1003959502340"
 
 bot = Bot(token=TOKEN)
 
-url = "http://51.77.216.195/crapi/lamix/viewstats"
+url = "http://51.77.216.195/crapi/lamix/viewstats?token=QlFSR0dXQkU0ZlJXVpdrU3VpZIlZcGGLe5SEiIOPlolFdYpoXHZzeWQ"
 
 sent = set()  # duplicate avoid
 
